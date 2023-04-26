@@ -17,6 +17,7 @@
     "@chakra-ui/react": "2.2.1",
     "@emotion/react": "^11",
     "@emotion/styled": "^11",
+    "@vercel/analytics": "^1.0.0",
     "apollo-server-micro": "^2.25.2",
     "framer-motion": "^6",
     "graphql": "^15.8.0",
