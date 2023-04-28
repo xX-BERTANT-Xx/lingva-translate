@@ -20,21 +20,21 @@ const Footer: FC<Props> = (props) => (
         {...props}
     >
         <Link href="https://vercel.com?utm_source=lingva-team&utm_campaign=oss" isExternal={true}>
-            <Text as="span">Deployed on <code>▲ Vercel</code></Text>
+            <Text as="span" style={{color:"#2e5686"}}>Deployed on <code>▲ Vercel</code></Text>
         </Link>
         <Text as="span" display={["none", null, "unset"]}>·</Text>
-        <Link href="https://github.com/thedaviddelta/lingva-translate/blob/main/LICENSE" isExternal={true}>
-            <Text as="span">Powered by lingva-translate</Text>
+        <Link href="https://github.com/thedaviddelta/lingva-translate" isExternal={true}>
+            <Text as="span" style={{color:"#2e5686"}}>Powered by lingva-translate</Text>
         </Link>
         <Text as="span" display={["none", null, "unset"]}>·</Text>
         <Link href="https://www.gnu.org/licenses/agpl-3.0.html" isExternal={true}>
-            <Text as="span">Licensed under AGPLv3</Text>
+            <Text as="span" style={{color:"#2e5686"}}>Licensed under AGPLv3</Text>
         </Link>
         {vercelSponsor && (
             <>
                 <Text as="span" display={["none", null, "unset"]}>·</Text>
                 <Link href="https://vercel.com?utm_source=lingva-team&utm_campaign=oss" isExternal={true}>
-                    <Text as="span">▲ Website Powered by Vercel</Text>
+                    <Text as="span" style={{color:"#2e5686"}}>▲ Website Powered by Vercel</Text>
                 </Link>
             </>
         )}

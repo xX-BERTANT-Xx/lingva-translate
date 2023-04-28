@@ -31,8 +31,8 @@ const Header: FC<Props> = (props) => (
                     <Image
                         src={useColorModeValue("/banner_light.svg", "/banner_dark.svg")}
                         alt="Logo"
-                        width={110}
-
+                        width={160}
+                        height={64}
                     />
                 </Link>
             </NextLink>
