@@ -1,6 +1,5 @@
 import { FC } from "react";
-import { Stack, Text, Link } from "@chakra-ui/react";
-import { useColorModeValue } from "@chakra-ui/react";
+import { Stack, Text, Link, useColorModeValue } from "@chakra-ui/react";
 import theme from "@theme";
 
 type Props = {
