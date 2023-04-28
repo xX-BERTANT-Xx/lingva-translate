@@ -7,10 +7,12 @@ type Props = {
 };
 
 const vercelSponsor = process.env["NEXT_PUBLIC_VERCEL_SPONSOR"] === "true";
-const themeColor = useColorModeValue(theme.colors.lingva["900"], theme.colors.lingva["100"]);
 
 
-const Footer: FC<Props> = (props) => (
+
+const Footer: FC<Props> = (props) => {
+    const themeColor = useColorModeValue(theme.colors.lingva["900"], theme.colors.lingva["100"]);
+    return (
     <Stack
         as="footer"
         w="full"
@@ -42,6 +44,7 @@ const Footer: FC<Props> = (props) => (
             </>
         )}
     </Stack>
-);
+    )
+}
 
 export default Footer;
