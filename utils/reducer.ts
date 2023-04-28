@@ -22,7 +22,7 @@ export type State = {
 
 export const initialState: State = {
     source: isValidCode(defaultSourceLang, LanguageType.SOURCE) ? defaultSourceLang : "auto",
-    target: isValidCode(defaultTargetLang, LanguageType.TARGET) ? defaultTargetLang : "en",
+    target: isValidCode(defaultTargetLang, LanguageType.TARGET) ? defaultTargetLang : "zh",
     query: "",
     delayedQuery: "",
     translation: "",
