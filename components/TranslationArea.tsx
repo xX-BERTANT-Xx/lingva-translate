@@ -52,6 +52,7 @@ const TranslationArea: FC<Props> = ({ value, onChange, onSubmit, readOnly, audio
             _readOnly={{
                 userSelect: "auto"
             }}
+            transition="all 0.3s ease-in-out"
         >
             <Textarea
                 value={value}
