@@ -10,8 +10,8 @@ const App: FC<AppProps> = ({ Component, pageProps }) => (
         <Layout>
             <Component {...pageProps} />
             <Analytics />
-            <script async src="https://ackee.workers.asia/tracker.js" data-ackee-server="https://ackee.workers.asia" data-ackee-domain-id="bb83d892-54c6-42ac-8270-1e2f7fbad7dd"></script>
         </Layout>
+        <script async src="https://ackee.workers.asia/tracker.js" data-ackee-server="https://ackee.workers.asia" data-ackee-domain-id="bb83d892-54c6-42ac-8270-1e2f7fbad7dd"></script>
     </ChakraProvider>
 );
 
