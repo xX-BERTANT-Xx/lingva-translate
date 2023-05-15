@@ -12,6 +12,14 @@ const App: FC<AppProps> = ({ Component, pageProps }) => (
             <Analytics />
         </Layout>
         <script async src="https://ackee.workers.asia/tracker.js" data-ackee-server="https://ackee.workers.asia" data-ackee-domain-id="bb83d892-54c6-42ac-8270-1e2f7fbad7dd"></script>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-DL2C8BE60D"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){ dataLayer.push(arguments); }
+            gtag('js', new Date());
+
+            gtag('config', 'G-DL2C8BE60D');
+        </script>
     </ChakraProvider>
 );
 
